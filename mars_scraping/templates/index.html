@@ -59,7 +59,10 @@
           <!-- Mars Facts -->
           <div class="row" id="mars-facts">
             <h4 style = "color:indianred">Mars Facts</h4>
-            {{ mars.facts | safe }}
+            <div style="max-width: 450px; max-height: 150px; font-size: 15px; margin-bottom: 65px ;color:teal">
+              {{ mars.facts | safe}}
+            </div>
+          <!-- {{ mars.facts | safe }} -->
           </div>
         </div>
       </div>
